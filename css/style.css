@@ -1,0 +1,252 @@
+/* ********************** */
+/* NAVIGATION */
+/* ********************** */
+
+.header {
+  border-bottom: 1px solid #828282;
+  padding: 3.6rem 0;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #828282;
+}
+
+.main-nav-link.first:first-child {
+  color: #070707;
+}
+
+/* ********************** */
+/* HERO SECTION */
+/* ********************** */
+
+.section-hero {
+  padding: 3.6rem 0;
+  padding-bottom: 10.4rem;
+}
+
+.hero-text-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hero-name {
+  font-size: 4.8rem;
+  line-height: 1.2;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  position: absolute;
+  left: 50%;
+  transform: translate(-35%, 50%);
+}
+
+.hero-languages {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: -25px;
+}
+
+.hero-lang--ru:link,
+.hero-lang--ru:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #828282;
+  font-weight: 700;
+}
+
+.hero-lang--en:link,
+.hero-lang--en:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #070707;
+  font-weight: 700;
+}
+
+.vert-dash {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero-img-box {
+  text-align: center;
+  margin-top: 3.2rem;
+}
+
+/* ********************** */
+/* ABOUT ME SECTION */
+/* ********************** */
+
+.section-about {
+  background-color: #f6f6f6;
+  padding: 12rem 0 10.6rem;
+}
+
+.about-heading {
+  margin-bottom: 1.8rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.4rem;
+}
+
+.about-description {
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* ********************** */
+/* SKILLS SECTION */
+/* ********************** */
+
+.section-skills {
+  padding: 9.6rem 0 11rem;
+}
+
+.skills-heading {
+  margin-bottom: 7rem;
+}
+
+.skills-text {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 8.8rem;
+}
+
+.logos-apps {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 9.6rem;
+}
+
+.skill-app {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-name {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #828282;
+  line-height: 1.2;
+  margin-bottom: 1.8rem;
+}
+
+.stars {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+/* ********************** */
+/* PORTFOLIO SECTION */
+/* ********************** */
+
+.section-portfolio {
+  background-color: #f6f6f6;
+  padding: 11.2rem 0 0;
+}
+
+.portfolio-heading {
+  margin-bottom: 6.4rem;
+}
+
+.portfolio-list {
+  list-style: none;
+}
+
+.portfolio-item {
+  text-align: center;
+}
+
+.portfolio-image {
+  text-align: center;
+  margin-bottom: 4.4rem;
+}
+
+.portfolio-link:link,
+.portfolio-link:visited {
+  display: block;
+  font-size: 1.8rem;
+  color: #070707;
+  padding-bottom: 10rem;
+}
+
+.portfolio-link:hover,
+.portfolio-link:active {
+  text-decoration: none;
+}
+
+/* ********************** */
+/* FOOTER SECTION */
+/* ********************** */
+
+.footer {
+  padding: 11.4rem;
+}
+
+.footer-heading {
+  margin-bottom: 2.4rem;
+}
+
+.footer-text {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+.btn-footer {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1rem 2.8rem;
+  background-color: #070707;
+  color: #fff;
+  border-radius: 10rem;
+  margin: auto;
+  margin-bottom: 8rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 6.4rem;
+  margin: auto;
+  margin-bottom: 4.8rem;
+}
+
+.link-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.social-links-desc {
+  text-align: center;
+  color: #828282;
+  font-size: 1.4rem;
+}
